@@ -2,6 +2,14 @@
 body, html
 {
     height: 100%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Major Mono Display", monospace;
 }
 
 /* style the hero-image div */
@@ -63,4 +71,40 @@ div#fourth
 div#fifth
 {
   background-color: #A9745C;
+}
+
+/* Style the navbar. */
+#navbar
+{
+  overflow: hidden;
+  background-color: #141319;
+}
+
+#navbar a
+{
+  float: left;
+  display: block;
+  color: #DDDFD4;
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover
+{
+  color: hotpink;
+  background-color: white;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
