@@ -25,3 +25,42 @@ body, html
   transform: translate(-50%, -50%);
   color: white;
 }
+
+div.stuff
+{
+  width: 250px;
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: left;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: black;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+}
+
+div#first
+{
+  background-color: #DDDFD4;
+}
+
+div#second
+{
+  background-color: #6C6258;
+}
+
+div#third
+{
+  background-color: #A6634B;
+}
+
+div#fourth
+{
+  background-color: #D99982;
+}
+
+div#fifth
+{
+  background-color: #A9745C;
+}
